@@ -1,0 +1,22 @@
+.carousel-caption {
+  left: 5% !important;
+  margin-bottom: 15%;
+  display: block;
+  padding-right: 35%;
+}
+
+.customh1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.customp {
+  font-size: 16px;
+  text-align: start;
+}
+
+.button {
+  text-align: center;
+  margin-right: 80%;
+}

@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  transition: color 0.3s;
+  color: black;
+  :hover {
+    color: red;
+  }
+}
+
+.content {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

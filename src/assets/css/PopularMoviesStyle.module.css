@@ -1,0 +1,38 @@
+.cardContainer {
+  display: flex; /* Mengatur tampilan elemen-elemen secara horizontal */
+  justify-content: space-between; /* Mengatur jarak horizontal antara card */
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+}
+.cardwrapper {
+  margin: 0 auto; /* Untuk mengatur card ke tengah jika ada ruang ekstra */
+}
+
+/* Mengatur lebar masing-masing card */
+.cardwrapper .card {
+  width: calc(25% - 10px);
+  margin-right: 10px;
+}
+
+/* Menghilangkan margin kanan dari card terakhir dalam setiap baris */
+.cardwrapper .card:last-child {
+  margin-right: 0;
+}
+.popularmovies {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 0.3s;
+  color: black;
+  :hover {
+    color: red;
+  }
+}
+.carousel {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

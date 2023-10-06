@@ -1,0 +1,15 @@
+.logo {
+  width: 100%;
+}
+
+.body {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: black;
+}
+
+ul li {
+  color: white;
+  list-style-type: none;
+  font-size: 20px;
+}
