@@ -3,10 +3,15 @@ import DetailMoviesTrailerComponent from "../components/DetailMoviesTrailerCompo
 
 const DetailMoviePages = () => {
   return (
-    <div>
-      <DetailMoviesComponent />
-      <DetailMoviesTrailerComponent />
-    </div>
+    <>
+      <head>
+        <title>Detail</title>
+      </head>
+      <div>
+        <DetailMoviesComponent />
+        <DetailMoviesTrailerComponent />
+      </div>
+    </>
   );
 };
 

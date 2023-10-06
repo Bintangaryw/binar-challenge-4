@@ -7,6 +7,9 @@ const SearchResultsPages = ({ searchResults }) => {
 
   return (
     <>
+      <head>
+        <title>Search</title>
+      </head>
       <div>
         {searchResults.map((movie) => (
           <div key={movie?.id}>

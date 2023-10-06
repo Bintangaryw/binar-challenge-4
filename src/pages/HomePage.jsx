@@ -4,11 +4,16 @@ import UpcomingMoviesComponent from "../components/UpcomingMoviesComponent";
 
 const HomePage = () => {
   return (
-    <div>
-      <HomeCarouselComponent />
-      <PopularMoviesComponent />
-      <UpcomingMoviesComponent />
-    </div>
+    <>
+      <head>
+        <title>Movielist</title>
+      </head>
+      <div>
+        <HomeCarouselComponent />
+        <PopularMoviesComponent />
+        <UpcomingMoviesComponent />
+      </div>
+    </>
   );
 };
 
